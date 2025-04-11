@@ -1,0 +1,4 @@
+# Configuration for mcp-mcpdoc server
+# Each entry must have a llms_txt URL and optionally a name
+- name: n8n
+  llms_txt: https://raw.githubusercontent.com/YoanAncelly/unofficial-llmstxt/refs/heads/main/llmstxt/n8n/llms.txt

@@ -1,0 +1,22 @@
+{
+    "mcpServers": {
+        "langgraph-docs-mcp": {
+            "command": "uvx",
+            "args": [
+                "--from",
+                "mcpdoc",
+                "mcpdoc",
+                "--yaml",
+                "llms/llmstxt_config.yaml",
+                "--allowed-domains",
+                "https://docs.n8n.io",
+                "--transport",
+                "stdio"
+            ],
+            "alwaysAllow": [
+                "list_doc_sources",
+                "fetch_docs"
+            ]
+        }
+    }
+}
